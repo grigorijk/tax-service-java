@@ -1,0 +1,32 @@
+request:
+  method: GET
+  url: /taxes/AAA
+response:
+  status: 200
+  body:
+    product: "AAA"
+    tax: 10
+  headers:
+    Content-Type: application/json;charset=UTF-8
+---
+request:
+  method: GET
+  url: /taxes/shipping
+response:
+  status: 200
+  body:
+    product: "shipping"
+    tax: 10
+  headers:
+    Content-Type: application/json;charset=UTF-8
+---
+request:
+  method: GET
+  url: /taxes/EEE
+response:
+  status: 200
+  body:
+    product: "EEE"
+    tax: 0
+  headers:
+    Content-Type: application/json;charset=UTF-8
